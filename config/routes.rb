@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
 get '/' => 'welcome#show'
 get '/about' => 'welcome#about'
+get '/steve' => 'portfolios#steve'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
