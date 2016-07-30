@@ -1,0 +1,10 @@
+.m-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.m-grid__item {
+  padding: 20px;
+  margin: 10px auto;
+}
